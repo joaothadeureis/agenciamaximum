@@ -1,0 +1,38 @@
+.session-1 ul li:hover {
+    color: #FED30D;
+}
+
+.session-1 ul li::after {
+        content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #FED30D;
+    position: absolute;
+    top: 25px;
+    z-index: -1;
+        transition: all 0.3s;
+        transform: translateX(-30%)
+}
+
+.session-1 ul li:hover::after {
+    z-index: 1;
+    transform: translateX(0);
+}
+
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+
+.grow:hover { 
+    transform: scale(1.1); 
+    }
+
+    .grow-p { 
+        transition: all .2s ease-in-out; 
+        }
+    
+    .grow-p:hover { 
+        transform: scale(1.105); 
+        }
