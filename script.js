@@ -14,7 +14,7 @@ function toggleClasses() {
             button.classList.add('active');
             
             // Check screen size and apply the appropriate class to the corresponding item
-            if (window.matchMedia('(max-width: 767px)').matches) {
+            if (window.matchMedia('(max-width: 520px)').matches) {
                 items[index].classList.add('visible-mobile');
             } else {
                 items[index].classList.add('visible');

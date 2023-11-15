@@ -1,3 +1,133 @@
+/* GLOBAL RESPONSIVO desktop */
+
+@media (max-width: 1460px){ /* tablet */
+
+
+    .session {
+        max-width: 1200px;
+        margin: 0 auto;
+       
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 32px !important;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 12px 24px;
+        max-width: 100%;
+    }
+}
+    /* RESPONSIVO DESKTOP */
+    @media (max-width: 1460px){ /* tablet */
+
+        .cta-final {
+            max-width: 150px;
+        }
+
+    }
+
+/* GLOBAL RESPONSIVO desktop */
+
+@media (max-width: 1240px){ /* DESKTOP GLOBAL */
+
+
+    .session {
+        max-width: 1000px;
+        margin: 0 auto;
+       
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 32px !important;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 14px;
+        padding: 12px 24px;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 1240px){ /* DESKTOP RESPONSIVO */
+
+    .container-1 {
+        background-position-y: -32px;
+    }
+
+    .container-2 {
+        padding-top: 72px;
+      }
+
+      .container-3 {
+        background-position-x: 50px;
+      }
+
+      .container-4 {
+        padding: 72px 0px;
+      }
+
+      .container-5 {
+        padding: 72px 0px;
+          background-position-x: center;
+        background-position-y: center;
+      }
+
+      .reviews-flex-carrossel {
+        grid-auto-columns: 30%
+      }
+      .cta-review {
+        width: 150px;
+      }
+      .cta-final {
+        width: 30%;
+      }
+      .container-cta {
+        background-position-y: center;
+      }
+      .footer-site {
+        padding-top: 72px;
+        align-items: center;
+      }
+
+      .footer-site img {
+        width: 200px;
+        height: 100%;
+      }
+      .social-media-footer {
+        width: 20%;
+        gap: 4px;
+      }
+
+
+}
+
 /* GLOBAL RESPONSIVO tablet */
 
 @media (max-width: 1024px){ /* tablet */
@@ -9,7 +139,6 @@
        
     }
 
- 
     p {
         font-size: 14px;
     }
@@ -54,7 +183,7 @@
     }
 
     .container-1 {
-        background-position-y: -61px;
+        background-position-y: -34px;
         background-position-x: -137px;
       }
 
@@ -62,9 +191,50 @@
         padding-top: 64px;
       }
 
+      .container-4 {
+        padding: 64px 0px;
+      }
 
+      .container-5 {
+        padding: 64px 0px;
+        background-position-y: -60px;
+        background-position-x: center;
+      }
+
+      .brands {
+        padding-top: 32px;
+        padding-bottom: 64px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 120vw;
+        margin-left: -50px;
+      }
+
+      .reviews-flex-carrossel {
+        grid-auto-columns: 40%;
+    }
+
+    .container-cta {
+        background-position-y: center;
+    background-position-x: center;
+  }
+
+  .footer-site {
+    padding-top: 64px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-site img {
+    width: 200px;
+    height: 100%;
+  }
+  .social-media-footer {
+    gap: 4px;
+    max-width: 24%;
+  }
 }
-
 
 
 
@@ -76,8 +246,6 @@
     .session {
         max-width:700px;
         margin: 0 auto;
-    
-       
     }
     p {
         font-size: 14px;
@@ -287,9 +455,69 @@
 }
 
 
+/* GLOBAL RESPONSIVO celular */
+
+@media (max-width: 720px){ /* celular */
+
+    .session {
+        max-width:600px;
+    }
+}
+
+/*  RESPONSIVO celular */
+
+@media (max-width: 720px){ /* celular */
+
+    .session-1 img {
+        width: 150px;
+      }
+      .session-1 ul {
+        gap: 20px;
+      }
+    .session-1 ul li {
+        font-size: 15px;
+      }
+
+      .reviews-flex-carrossel {
+        grid-auto-columns: 50%;
+      }
+
+      .container-cta {
+        background-position-x: -300px;
+      }
+     
+      .cta-final {
+        width: 40%;
+      }
+      .footer-site img {
+        width: 140px;
+        height: 100%;
+      }
+      .social-media-footer {
+        width: 40%;
+      }
+     
+
+}
+
+/* GLOBAL RESPONSIVO celular */
+
+@media (max-width: 620px){ /* celular */
+
+    .session {
+        max-width:560px;
+    }
+}
+
+
+
+
+
+
+
 /* GLOBAL RESPONSIVO */
 
-@media (max-width: 767px){ /* celular */
+@media (max-width: 520px){ /* celular */
 
 
     .session {
@@ -312,7 +540,7 @@
     }
 }
 
-@media (max-width: 767px){
+@media (max-width: 520px){
 
    .session-1 ul {
     display: none;
