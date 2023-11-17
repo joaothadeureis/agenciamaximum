@@ -3,6 +3,9 @@
     justify-content: center;
     gap: 20px;
 }
+.btns-portfolio button {
+font-size: 14px;
+}
 
 .btn-1, .btn-2, .btn-3, .btn-4 {
     border-radius: 4px;
