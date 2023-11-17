@@ -52,3 +52,28 @@ img {
     display: none;
 }
 
+p::selection {
+    color: #080600;
+    background-color: #FED30D;
+}
+
+h1::selection, h2::selection, h3::selection, h4::selection, li::selection {
+    color: #080600;
+    background-color: #FED30D;
+}
+
+/* mudar o fundo do texto */
+
+p::selection {
+    color: #080600;
+    background-color: #FED30D;
+}
+
+.yellow::selection {
+    color: #fff;
+    background-color: #FED30D;
+}
+
+.btn::selection {
+    color: #080600;
+}

@@ -268,8 +268,7 @@
 
 @media (max-width: 920px){
 
-    .session-1 ul {
-       }
+    
         .cta-blog{
             display: none;
 }
@@ -509,10 +508,33 @@
     }
 }
 
+/*  RESPONSIVO celular */
 
+@media (max-width: 620px){ /* celular */
 
+  .container-3 {
+    background-position-y: -45px;
+    background-position-x: -272px;
+  }
 
+  .btns-portfolio button {
+    font-size: 12px;
+  }
 
+  .container-cta {
+    background-position-x: -419px;
+  }
+
+}
+
+/* GLOBAL RESPONSIVO celular */
+
+@media (max-width: 580px){ /* celular */
+
+  .session {
+      max-width:520px;
+  }
+}
 
 
 /* GLOBAL RESPONSIVO */
@@ -541,6 +563,7 @@
 }
 
 @media (max-width: 520px){
+  
 
    .session-1 ul {
     display: none;
@@ -664,7 +687,10 @@
 } 
 
 .container-3 {
-    padding: 56px 0px;
+  padding-top: 56px;
+    padding-bottom: 164px;
+    background-position-y: 263px;
+    background-position-x: -667px;
 }
 
 .session-3 {
@@ -863,7 +889,10 @@ border-radius: 8px;
   gap: 20px;
  }
 
- 
+ .social-media-footer {
+  max-width: 100%;
+}
+
  .footer-site img {
     max-width: 60%;
     align-self: center;
@@ -873,9 +902,11 @@ border-radius: 8px;
  .social-media-footer ul {
     justify-content: center;
  }
+
  .autoral span{
     line-height: 0px;
  }
+
 }
 
 
