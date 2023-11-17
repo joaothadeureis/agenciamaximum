@@ -1,0 +1,115 @@
+
+
+.session-1 {
+    position: relative;
+}
+
+.close-ico {
+    max-width: 25px;
+}
+.menu-mobile-janela {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 80vw;
+    background: linear-gradient(180deg, #1C1C1C 0%, #201C08 53.12%, #141103 100%);
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+    z-index: 99;
+}
+@media (max-width: 520px){
+
+/* social media button */
+.social-media-menu {
+    position: absolute;
+    bottom: 0;
+    left: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+.social-media-menu span {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 28px */
+}
+.ico-social-menu-mobile { /* ul icones */
+ display: flex !important;
+}
+
+.ico-social-menu-mobile li img {
+    width: 30px;
+}
+
+
+/* fim social media */
+.menu-configuracoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-items { /* ul */
+    display: flex !important;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 0px !important;
+    padding: 32px 0px;
+}
+
+.cta-blog-mobile-menu { /* botao */
+    color: #211B00 !important;
+    font-family: "Open Sans";
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 140%; /* 19.6px */
+}
+
+.nav-items li a {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 140%; /* 25.2px */
+}
+
+.session-1 ul li::after { /* traço efeito*/
+    visibility: hidden;
+}
+
+
+
+.menu-mobile-janela li {
+    margin-bottom: 20px;
+}
+
+.menu-mobile-janela a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.menu-mobile {
+    cursor: pointer;
+}
+
+.close-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+}

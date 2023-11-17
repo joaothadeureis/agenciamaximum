@@ -28,3 +28,36 @@ toggleClasses();
 
 // Add a listener for screen size changes
 window.addEventListener('resize', toggleClasses);
+
+
+
+
+// memu mobile
+
+// $(document).ready(function () {
+//     $("#menuIcon").click(function () {
+//         $(".menu-mobile-janela").css("display", "block").css("transform", "translateX(0)");
+//     });
+
+//     $("#closeIcon").click(function () {
+//         $(".menu-mobile-janela").css("transform", "translateX(100%)");
+//         setTimeout(function () {
+//             $(".menu-mobile-janela").css("display", "none");
+//         }, 300);
+//     });
+// });
+
+
+
+$(document).ready(function () {
+    $("#menuIcon").click(function () {
+        $(".menu-mobile-janela").css("display", "block").css("transform", "translateX(0)");
+    });
+
+    $("#closeIcon, .menu-mobile-janela a").click(function () {
+        $(".menu-mobile-janela").css("transform", "translateX(100%)");
+        setTimeout(function () {
+            $(".menu-mobile-janela").css("display", "none");
+        }, 300);
+    });
+});
