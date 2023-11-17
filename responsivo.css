@@ -763,7 +763,7 @@
 
 }
 .visible-mobile {  
-    display: block;
+    display: block !important;
 }
 
 .container-4 {
