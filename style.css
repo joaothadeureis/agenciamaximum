@@ -239,12 +239,17 @@ max-width: 60ch;
     justify-content: space-between;
     width: 120vw;
     margin-left: -50px;
+    align-items: center;
 }
     
 .brands img {
     background-size: contain;
-}
+        max-width: 121px;
+        height: 100%;
+      }
 
+  
+    
 
 
 .container-5 {

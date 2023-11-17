@@ -839,10 +839,11 @@ border-radius: 8px;
     display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 20px;
 
   }
 
-  .brands img:nth-child( n + 5 ) {
+  .brands img:nth-child( n + 6 ) {
     display: none;
 }
 
