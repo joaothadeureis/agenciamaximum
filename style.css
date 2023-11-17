@@ -245,7 +245,7 @@ max-width: 60ch;
 .brands img {
     background-size: contain;
         max-width: 121px;
-        height: 100%;
+        height: auto;
       }
 
   
