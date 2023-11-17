@@ -77,8 +77,12 @@
 
 @media (max-width: 1240px){ /* DESKTOP RESPONSIVO */
 
+  .session-1 img {
+    width: 200px;
+  }
     .container-1 {
         background-position-y: -32px;
+        padding-top: 16px;
     }
 
     .container-2 {
@@ -467,14 +471,23 @@
 
 @media (max-width: 720px){ /* celular */
 
+  .session-1 {
+    flex-direction: column;
+    padding-top: 12px;
+  }
     .session-1 img {
         width: 150px;
       }
       .session-1 ul {
         gap: 20px;
       }
-    .session-1 ul li {
-        font-size: 15px;
+    .session-1 ul li a {
+        font-size: 14px;
+      }
+
+      .container-1 {
+        background-position-y: 2px;
+  
       }
 
       .reviews-flex-carrossel {
@@ -512,6 +525,12 @@
 
 @media (max-width: 620px){ /* celular */
 
+  .container-1 {
+    background-position-x: -227px;
+    background-position-y: 10px;
+  }
+  }
+
   .container-3 {
     background-position-y: -45px;
     background-position-x: -272px;
@@ -525,17 +544,29 @@
     background-position-x: -419px;
   }
 
-}
+
 
 /* GLOBAL RESPONSIVO celular */
 
 @media (max-width: 580px){ /* celular */
+
 
   .session {
       max-width:520px;
   }
 }
 
+
+/*  RESPONSIVO celular */
+
+@media (max-width: 580px){ /* celular */
+
+  .container-1 {
+    background-position-x: -296px;
+    background-position-y: 10px;
+  }
+
+}
 
 /* GLOBAL RESPONSIVO */
 
@@ -564,7 +595,10 @@
 
 @media (max-width: 520px){
   
-
+  .session-1 {
+    flex-direction: row;
+    padding-top: 0px;
+  }
    .session-1 ul {
     display: none;
    }
@@ -589,7 +623,6 @@
     }
 
     .session-1 {
-        padding-top: 40px;
         align-content: center;
         justify-content: space-between; /* deixa a sessao 1 alinhada ao centro*/
     }
@@ -687,10 +720,11 @@
 } 
 
 .container-3 {
-  padding-top: 56px;
-    padding-bottom: 164px;
-    background-position-y: 263px;
-    background-position-x: -667px;
+    padding-top: 56px;
+    padding-bottom: 247px;
+    background-position-y: 318px;
+    background-position-x: -752px;
+  }
 }
 
 .session-3 {
