@@ -678,16 +678,16 @@
 }
 
 .container-1 {
-    background: url('./img/mobile/bg\ session\ 1\ mobile.png');
+    background: url('./img/mobile/bg\ session\ 1\ mobile.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 42px;
-    background-position-x: center;
+    background-position-y: 59px;
+    background-position-x: -84px;
     position: relative;
   }
 .container-1::after {
     content: '';
-  background-color: #000;
+  background-color: #060405;
   width: 100%;
   height: 40px;
   display: block;
@@ -794,7 +794,7 @@ padding-right: 0px;
 .container-4-mobile {
     padding: 56px 0px ;
     display: block;
-    background: url('./img/bg\ session\ portfolio\ mobile.png');
+    background: url('./img/bg\ session\ portfolio\ mobile.webp');
     background-repeat: repeat;
     background-size: cover;
 }
@@ -880,21 +880,28 @@ border-radius: 8px;
     margin-bottom: 56px;
     margin-left: 20px;
  }
-
+.reviews-flex-carrossel {
+  grid-auto-columns: 30%;
+}
  .review-1 span, .review-2 span, .review-3 span, .review-4 span, .review-5 span, .review-6 span {
-    font-size: 16px;
+    font-size: 20px;
  }
 
- .review-1 img, .review-2 img, .review-3 img, .review-4 img, .review-5 img, .review-6 img {
-    width: 25%;
+ .review-1 p, .review-2 p, .review-3 p, .review-4 p, .review-5 p, .review-6 p {
+  font-size: 14px !important;
+ }
 
+
+ .review-1 img, .review-2 img, .review-3 img, .review-4 img, .review-5 img, .review-6 img {
+    max-width: 100%;
+    width: 80px;
  }
 
 
  /* container cta */
  
  .container-cta {
-    background: url('./img/bg\ session\ cta-mobile.png');
+    background: url('./img/bg\ session\ cta-mobile.webp');
      background-repeat: no-repeat;
      background-size: cover;
      background-position-y: 0px;

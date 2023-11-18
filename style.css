@@ -1,5 +1,5 @@
 .container-1 {
-    background: url('./img/bg\ session\ 1.png');
+    background: url('./img/bg\ session\ 1.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -80px;
@@ -128,7 +128,7 @@ padding-top: 8px;
 
 .container-3 {
     padding: 120px 0px;
-    background: url('./img/bg\ session\ 3.png');
+    background: url('./img/bg\ session\ 3.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -100px;
@@ -137,13 +137,13 @@ padding-top: 8px;
 
 .container-3::after {
     content: '';
-    background-color: #000;
+    background-color: #060405;
     width: 100%;
     height: 40px;
     display: block;
     filter: blur(10px);
     position: absolute;
-    bottom: -25px;
+    bottom: -20px;
 }
 .container-3::before {
     content: '';
@@ -212,10 +212,11 @@ max-width: 60ch;
 }
 .container-5 {
     padding: 120px 0px;
-    background: url('./img/bg\ session\ 5.png');
+    background: url('./img/bg\ session\ 5.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -100px;
+    background-position-x: center;
     position: relative;
    
 }
@@ -372,23 +373,23 @@ color: #fff;
 }
 
 .container-cta {
-   background: url('./img/bg\ session\ cta.png');
+   background: url('./img/bg\ session\ cta.webp');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -80px;
+    background-position-y: 18px;
     padding: 154px 0px;
     position: relative;
 }
 
 .container-cta::after {
     content: '';
-    background-color: #000;
+    background-color: #060405;
     width: 100%;
     height: 40px;
     display: block;
     filter: blur(10px);
     position: absolute;
-    bottom: -25px;
+    bottom: 0px;
 }
 .cta-textos {
     display: flex;
