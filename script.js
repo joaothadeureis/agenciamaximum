@@ -35,14 +35,28 @@ window.addEventListener('resize', toggleClasses);
 // memu mobile
 
 $(document).ready(function () {
-    $("#menuIcon").click(function () {
-        $(".menu-mobile-janela").css("display", "block").css("transform", "translateX(0)");
+    var menuMobile = $(".menu-mobile-janela");
+    var menuIcon = $("#menuIcon");
+
+    menuIcon.click(function (event) {
+        event.stopPropagation(); // Evita que o clique se propague para o documento
+        menuMobile.css("display", "block").css("transform", "translateX(0)");
+    });
+
+    $(document).click(function (event) {
+        if (!$(event.target).closest(menuMobile).length && !$(event.target).is(menuIcon)) {
+            // Fecha o menu se o clique ocorrer fora do menu ou além dos 80vw
+            menuMobile.css("transform", "translateX(100%)");
+            setTimeout(function () {
+                menuMobile.css("display", "none");
+            }, 300);
+        }
     });
 
     $("#closeIcon, .menu-mobile-janela a").click(function () {
-        $(".menu-mobile-janela").css("transform", "translateX(100%)");
+        menuMobile.css("transform", "translateX(100%)");
         setTimeout(function () {
-            $(".menu-mobile-janela").css("display", "none");
+            menuMobile.css("display", "none");
         }, 300);
     });
 });

@@ -2,7 +2,6 @@
 
 @media (max-width: 1460px){ /* tablet */
 
-
     .session {
         max-width: 1200px;
         margin: 0 auto;
@@ -138,7 +137,7 @@
 
 
     .session {
-        max-width:900px;
+        max-width:920px;
         margin: 0 auto;
        
     }
@@ -172,6 +171,14 @@
 
     .session-1 {
         padding-top: 16px;
+        
+    }
+    .menu-desktop li a {
+      font-size:14px;
+    }
+    .cta-blog {
+      font-size: 14px;
+      padding: 8px 16px;
     }
     .session-1 a {
         max-width: 100%;
@@ -252,7 +259,7 @@
         margin: 0 auto;
     }
     p {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     h2 {
@@ -272,15 +279,21 @@
 
 @media (max-width: 920px){
 
+  .session-1 {
+    padding-top: 10px;
+    align-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 16px;
+  }
     
         .cta-blog{
-            display: none;
+            display: block;
+            padding: 8px 16px;
 }
-        
-        .logo-header {  
-            width: 170px;
-          
-        }
+.session-1 img {
+  width: 170px;
+}
     
         .menu-mobile {
             display: none;
@@ -292,19 +305,19 @@
           }
         .session-1 ul li {
             font-size: 16px;
+            margin-top: -20px;
         }
 
-        .session-1 {
-            padding-top: 40px;
-            align-content: center;
-            justify-content: space-between; /* deixa a sessao 1 alinhada ao centro*/
-        }
+      
     
         .headline-1 {
             width: 100%;
             display: flex;
             flex-direction: column;
             gap: 20px;
+            width: 65%;
+     
+        gap: 12px;
         }
         
         .headline-1 h1 {
@@ -314,26 +327,18 @@
             font-weight: 600;
             line-height: 140%;
             text-align: center;
+        text-align: start;
+
         }
         
   
         .cta-1 {
             display: none;  
     }
-    
-    .headline-1 {
-        width: 50%;
-     
-        gap: 12px;
-      }
-    
-      .headline-1 h1 {
-        text-align: start;
-      }
 
       .headline-1 p {
             font-size: 14px;
-        max-width: 100%; 
+        max-width: 86%; 
         text-align: start;
       }
 
@@ -346,9 +351,9 @@
       }
 
       .container-1 {
-        height: 69vh;
-        background-position-y: -16px;
-        background-position-x: -135px;
+        height: 81vh;
+        background-position-y: -1px;
+        background-position-x: -117px;
       }
 
       .container-2 {
@@ -364,15 +369,14 @@
 
       .container-3 {
         padding: 64px 0px;
-        background-position-y: -23px;
-        background-position-x: -203px;
+        background-position-y: -57px;
+        background-position-x: -118px;
         height: 71vh;
       }
       
       .session-3 p {
-     
         line-height: 140%;
-        font-size: 16px;
+        font-size: 14px;
       }
 
       .session-3 ul li {
@@ -403,6 +407,7 @@
   }
 
   .info-portfolio p {
+    font-size: 14px !important;
     padding-top: 32px;
   }
 
@@ -417,11 +422,18 @@
     background-position-y: center;
     background-position-x: center;
   }
+  .container-5 p {
+    padding-top: 10px;
+    padding-bottom: 32px;
+  }
 
   .brands {
     padding-top: 0px;
-    padding-bottom: 56px;
+    padding-bottom: 32px;
+    margin-left: -74px;
+    gap: 40px;
   }
+  
 
   .reviews-flex-carrossel {
     display: grid;
@@ -439,6 +451,10 @@
     background-position-y: -59px;
     background-position-x: -235px;
   }  
+
+  .cta-textos {
+    max-width: 54%;
+  }
 
   .footer-site {
     padding: 32px 0px;
@@ -491,7 +507,7 @@
       }
 
       .reviews-flex-carrossel {
-        grid-auto-columns: 50%;
+        grid-auto-columns: 30%;
       }
 
       .container-cta {
@@ -529,7 +545,7 @@
     background-position-x: -227px;
     background-position-y: 10px;
   }
-  }
+  
 
   .container-3 {
     background-position-y: -45px;
@@ -544,6 +560,7 @@
     background-position-x: -419px;
   }
 
+}
 
 
 /* GLOBAL RESPONSIVO celular */
@@ -869,7 +886,7 @@ border-radius: 8px;
  }
 
  .review-1 img, .review-2 img, .review-3 img, .review-4 img, .review-5 img, .review-6 img {
-    max-width: 100%;
+    width: 25%;
 
  }
 
