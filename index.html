@@ -7,10 +7,11 @@
     <title>Agência Maximum | Tráfego para sua Empresa</title>
 
     <link rel="icon" type="image/x-icon" href="./img/favicon.webp">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./plugins/simple-anime.css">
+    <link rel="stylesheet" href="style.min.css">
     <link rel="stylesheet" href="global.css">
     <link rel="stylesheet" href="effects.css">
-    <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="responsivo.min.css">
     <link rel="stylesheet" href="portfolio.css">
     <link rel="stylesheet" href="./lightbox/lightbox.css">
     <link rel="stylesheet" href="menu-mobile.css">
@@ -18,13 +19,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script> document.documentElement.classList.add('js');</script>
 </head>
 <body>
     <section class="container container-1">
         <main class="session">
             <header class="session-1">
                 <div class="ocultar"></div>
-                    <a href="index.html"><img src="./img/logo maximum svg.svg" alt="Logo Maximum" class="logo-header"></a>
+                    <a href="https://agenciamaximum.com"><img src="./img/logo maximum svg.svg" alt="Logo Maximum" class="logo-header"></a>
                        <!-- Botao Menu Mobile -->
                         <button class="menu-mobile"><img src="./img/menu-mobile.svg" alt="Menu Mobile" id="menuIcon"></button>
                         <!-- Menu Mobile -->
@@ -32,7 +34,7 @@
 
                                 <img src="./menu mobile/close.svg" alt="Close" id="closeIcon" class="close-ico">
                                 <div class="menu-configuracoes">
-                                <a href="index.html"><img src="./img/logo maximum svg.svg" alt="Logo Maximum" class="logo-header"></a>
+                                <a href="https://agenciamaximum.com"><img src="./img/logo maximum svg.svg" alt="Logo Maximum" class="logo-header"></a>
                                     <ul class="nav-items">
                                         <li class="grow-p"><a href="#servicos">Serviços</a></li>
                                         <li class="grow-p"><a href="#trafego">Aumente seu Tráfego</a></li>
@@ -61,18 +63,18 @@
         <a href="#" class="grow btn cta-blog">CONHEÇA NOSSO BLOG</a>
     </header>
     <div class="headline-1">
-    <h1>Maximize os <span class="yellow">resultados</span> da sua empresa com a <span class="yellow">Agência Maximum</span></h1>
-        <p class="subtitulo-header">Criamos estratégias personalizadas para amplificar sua presença online e alcançar resultados impactantes.</p>
-        <a href="#diagnostico" class="grow btn cta-1-mobile">SAIBA MAIS</a>
+    <h1 data-anime="400" class="fadeInDown">Maximize os <span class="yellow">resultados</span> da sua empresa com a <span class="yellow">Agência Maximum</span></h1>
+        <p class="subtitulo-header fadeInDown" data-anime="600">Criamos estratégias personalizadas para amplificar sua presença online e alcançar resultados impactantes.</p>
+        <a href="#diagnostico" data-anime="800" class="grow btn cta-1-mobile fadeInDown" >SAIBA MAIS</a>
 
         </div>
-        <a href="#diagnostico" class="grow btn cta-1">SAIBA MAIS</a>
+        <a href="#diagnostico" data-anime="800" class="grow btn cta-1 fadeInDown">SAIBA MAIS</a>
         </main>
 </section>
 
         <section class="container container-2">
             <main class="session">
-                <h2 id="servicos">Nossos Serviços <span class="yellow">Especializados</span></h2>
+                <h2 id="servicos"  class="fadeInDown">Nossos Serviços <span class="yellow">Especializados</span></h2>
                 <div class="session-2-benefits-grid">
                     <div class="benefit-1">
                         <div class="img-benefit-flex">
@@ -419,6 +421,7 @@
                 </main></section>
 
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="./plugins/simple-anime.js"></script>
 <script defer src="script.js"></script>
 <script defer src="./lightbox/lightbox-plus-jquery.js"></script>
 

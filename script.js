@@ -61,9 +61,9 @@ $(document).ready(function () {
     });
 });
 
+//verificar animaçao
 
-// lazy load
-
-
-
+if (window.SimpleAnime) {
+    new SimpleAnime();
+}
 
