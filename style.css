@@ -389,7 +389,7 @@ color: #fff;
     display: block;
     filter: blur(10px);
     position: absolute;
-    bottom: 0px;
+    bottom: -28px;
 }
 .cta-textos {
     display: flex;
