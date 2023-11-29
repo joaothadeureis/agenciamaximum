@@ -1,0 +1,26 @@
+.close {
+  display: none;
+}
+
+.open {
+  display: block;
+  max-height: 500px;
+}
+
+.borda-open {
+  border-radius: 14px;
+  border: 2px solid #fed30d;
+}
+
+/* mobile */
+.fechar {
+  display: none;
+}
+
+.abrir {
+  display: block;
+}
+
+.borda-mobile {
+  border: 2px solid #fed30d !important;
+}

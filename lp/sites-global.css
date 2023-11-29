@@ -1,0 +1,117 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  background-color: #060405;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+ul,
+li,
+p,
+span {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  line-height: 140%;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 67.2px */
+}
+h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+}
+h3 {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 56px */
+}
+h5 {
+  color: #fed30d;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; /* 33.6px */
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+.section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.yellow {
+  color: #fed30d;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: #fed30d;
+  color: #211b00;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 8px;
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+p::selection {
+  color: #080600;
+  background-color: #fed30d;
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+li::selection {
+  color: #080600;
+  background-color: #fed30d;
+}
+
+/* mudar o fundo do texto */
+
+p::selection {
+  color: #080600;
+  background-color: #fed30d;
+}
+
+.yellow::selection {
+  color: #fff;
+  background-color: #fed30d;
+}
+
+.btn::selection {
+  color: #080600;
+}
