@@ -1,25 +1,4 @@
-// Adiciona um ouvinte de evento para o evento mouseover (quando o mouse está sobre a div)
-document
-  .getElementById("draggableDiv")
-  .addEventListener("mouseover", function () {
-    // Adiciona um ouvinte de evento para o evento wheel (scroll do mouse)
-    this.addEventListener("wheel", wheelHandler);
-  });
-
-// Adiciona um ouvinte de evento para o evento mouseout (quando o mouse sai da div)
-document
-  .getElementById("draggableDiv")
-  .addEventListener("mouseout", function () {
-    // Remove o ouvinte de evento para o evento wheel (scroll do mouse)
-    this.removeEventListener("wheel", wheelHandler);
-  });
-
-// Modifica o comportamento do scroll do mouse dentro da div
-function wheelHandler(e) {
-  this.scrollLeft += e.deltaY;
-  // Impede o comportamento padrão de rolar verticalmente
-  e.preventDefault();
-}
+//portfolio carrossel desktop
 
 // faq
 

@@ -205,7 +205,7 @@
 /* container 5 scroll */
 
 .container-5 {
-  margin-top: 100px;
+  margin-top: 0px;
   padding-top: 100px;
   background: url("/lp/img/compressed/bg\ session\ 3.webp");
   background-size: cover;
@@ -269,6 +269,9 @@
 .container-6 h3 {
   max-width: 45ch;
   margin: 0 auto;
+}
+.slider-mobile {
+  display: none;
 }
 .slider {
   padding-top: 64px;
@@ -381,6 +384,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.container-7 {
+  padding-top: 120px;
 }
 .container-7 h5,
 .container-7 h3 {
@@ -521,7 +527,7 @@
 .faq-flex h6 {
   color: #fff;
   font-family: "Open Sans", sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%; /* 33.6px */
