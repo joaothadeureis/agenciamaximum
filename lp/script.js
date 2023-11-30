@@ -1,5 +1,3 @@
-//portfolio carrossel desktop
-
 // faq
 
 document.addEventListener("DOMContentLoaded", function () {
