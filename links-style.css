@@ -1,0 +1,266 @@
+body {
+  background-color: #080600;
+}
+
+.bg-inicial {
+  background: url('/img/links/bg\ session\ 1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  max-width: 480px;
+  background-position-y: -55px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.bg-inicial::after {
+  content: '';
+  background: #080600;
+  height: 40px;
+  width: 110%;
+  filter: blur(5px);
+  position: absolute;
+  bottom: -17px;
+  display: block;
+  margin: 0 auto;
+}
+header, main {
+  background-color: #080600;
+  max-width: 480px;
+  margin: 0 auto;
+
+}
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+header img:first-child {
+width: 110px;
+margin: 0 auto;
+padding-top: 32px;
+}
+header img:nth-child(5) {
+  width: 32px;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: #FFF;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+header h2 {
+  color: #FED30D;
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+header p {
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0px 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+    align-items: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+
+
+.container-1 {
+  background: url('/img/links/bg7\ 1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(254, 211, 13, 0.30);
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin-top: 35px;
+  margin-bottom: 32px;
+}
+
+.texto-1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-self: center;
+  justify-content: center;
+  margin-left: 12px;
+  gap: 8px;
+}
+
+.texto-1 h3 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.texto-1 img {
+  padding-bottom: 8px;
+  width: 120px;
+  justify-self: center;
+}
+
+.container-1 img:nth-child(3) {
+  margin-top: -55px;
+  margin-left: -5px;
+}
+
+/* container 2 */
+
+.container-2 {
+  background: url('/img/links/Rectangle\ 6151.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(254, 211, 13, 0.30);
+  display: grid;
+  justify-content: center;
+  margin-bottom: 32px;
+  position: relative;
+  align-content: center;
+  grid-template-columns: 150px 1fr;
+}
+
+.texto-2 {
+  grid-area: 0;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 auto;
+}
+
+.texto-2 h3 {
+  font-size: 16px;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.texto-2 img {
+  padding-bottom: 8px;
+  width: 120px;
+  justify-self: center;
+}
+
+.container-2 img:first-child {
+  width: 120px;
+  position: absolute;
+  bottom: 0px;
+  max-width: 100%;
+  margin-left: 26px;
+}
+
+/* container 3*/
+
+.container-3 {
+  background: url('/img/links/terra-vista-do-espaco\ 2.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(254, 211, 13, 0.30);
+  display: grid;
+  justify-content: center;
+  margin-bottom: 32px;
+  position: relative;
+  align-content: center;
+  grid-template-columns: 2fr 1.5fr;
+}
+
+.texto-3 {
+  grid-area: 0;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: start;
+  gap: 8px;
+  margin: 0 auto;
+  padding-right: 12px;
+}
+
+.texto-3 h3 {
+  font-size: 16px;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.texto-3 img {
+  padding-bottom: 8px;
+  width: 120px;
+  justify-self: center;
+}
+
+.container-3 img:first-child {
+  width: 255px;
+  position: absolute;
+  bottom: 0px;
+  max-width: 100%;
+}
+
+.texto-3 a {
+  align-self: start;
+}
+
+/* container 4 */
+
+.container-4 {
+  background: url('/img/links/bg7\ 1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(254, 211, 13, 0.30);
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin-bottom: 32px;
+}
+
+.texto-4 {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: start;
+  margin-left: 32px;
+  gap: 8px;
+}
+
+.texto-4 h3 {
+  text-align: start;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.texto-4 img {
+  padding-bottom: 8px;
+  width: 120px;
+  justify-self: center;
+}

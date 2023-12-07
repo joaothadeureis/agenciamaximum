@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "@hotjar/browser": "^1.0.9",
     "clean-css-cli": "^5.6.2"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3"
   }
 }

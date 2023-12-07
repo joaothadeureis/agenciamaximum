@@ -116,3 +116,21 @@ p::selection {
 .btn::selection {
   color: #080600;
 }
+
+
+
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+
+.grow:hover { 
+  transform: scale(1.1); 
+  }
+
+  .grow-p { 
+      transition: all .2s ease-in-out; 
+      }
+  
+  .grow-p:hover { 
+      transform: scale(1.105); 
+      }
