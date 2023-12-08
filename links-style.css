@@ -78,6 +78,7 @@ header p {
 }
 
 main {
+  cursor: pointer;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;

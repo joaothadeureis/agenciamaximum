@@ -1,0 +1,50 @@
+@media (max-width:450px) {
+
+  .bg-inicial::after {
+    z-index: 0;
+  }
+header {
+  z-index: 1;
+  position: relative;
+  background-color: transparent;
+  margin-top: -109px;
+}
+  .btn {
+    font-size: 14px;
+  }
+
+  .container-1, .container-2, .container-3, .container-4 {
+    height: 161px;
+  }
+  .texto-1  {
+    align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  }
+  .container-1 img:nth-child(3) {
+    margin-top: -55px;
+    margin-left: -29px;
+    width: 220px;
+    height: 216px;
+  }
+
+  .container-2 img:first-child {
+    width: 100px;
+    margin-left: 18px;
+}
+.texto-2 {
+  margin-right: 32px;
+}
+.container-3 img:first-child {
+  width: 200px;
+}
+.texto-4 {
+  margin-left: 20px;
+}
+.texto-4 a {
+  align-self: start;
+}
+.container-4 img {
+  width: 162px;
+}
+}
